@@ -20,7 +20,8 @@ class DynamicAudioPlayerViewModel : ViewModel() {
     }
 
     private fun fetchAudioUrl() {
-        val databaseReference = FirebaseDatabase.getInstance().getReference("url")
+        val firebaseDatabase = FirebaseDatabase.getInstance("https://dynamic-audio-player-6d4a3-default-rtdb.asia-southeast1.firebasedatabase.app")
+        val databaseReference = firebaseDatabase.getReference("url")
         databaseReference.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 _audioUrl.value = snapshot.getValue(String::class.java)
