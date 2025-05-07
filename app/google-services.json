@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045947412364",
+    "project_id": "dynamic-audio-player-6d4a3",
+    "storage_bucket": "dynamic-audio-player-6d4a3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045947412364:android:d4f519827c7e08b3f6f0a9",
+        "android_client_info": {
+          "package_name": "com.example.dynamicaudioplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVHbpdgotkOASyVl1uu3kpySvbVzDeDWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
